@@ -1,3 +1,7 @@
 notes-node/node_modules/*
 notes-node/package-lock.json
 .DS_STORE
+notes-node/notes-data.json
+
+weather-app/node_modules/*
+weather-app/package-lock.json
