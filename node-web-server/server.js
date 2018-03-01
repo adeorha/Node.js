@@ -13,7 +13,7 @@ app.use((req, res, next) => {
   var log = `${now}: ${req.method} ${req.url}`;
 
   console.log(log);
-  fs.appendFile('server.log', log + '\n');
+  fs.appendFileSync('server.log', log + '\n');
   next();
 });
 
